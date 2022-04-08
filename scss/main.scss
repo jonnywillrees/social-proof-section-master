@@ -1,0 +1,22 @@
+@use './base';
+
+html {
+    // Base 10px
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid hotpink;
+    max-width: 120rem;
+}
